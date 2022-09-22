@@ -21,10 +21,10 @@ This linear model does predict mpg of MechaCar prototypes by assessing the r2 = 
 
 ## Deliverable 2: Create Visualizations for the Trip Analysis
 ### Summary Statistics on Suspension Coils
-Summary statitics for the suspension coil’s PSI continuous variable across all manufacturing lots
+Summary statitics for the suspension coil’s PSI continuous variable across all manufacturing lots. The mean PSI is determined to be ~1500 for all manufacturing lots.
 ![image](https://user-images.githubusercontent.com/106962921/191745305-c9b0ee8f-b458-4eb0-beff-01d239162a07.png)
 
-Summary statistics for the following PSI metrics for each lot: mean, median, variance, and standard deviation.
+Summary statistics for the following PSI metrics for each lot: mean, median, variance, and standard deviation. The mean PSI is determined to be ~1500 for each manufacturing lots.
 ![image](https://user-images.githubusercontent.com/106962921/191745610-dcbb309a-2f23-4f01-92d9-2db168376400.png)
 
 **1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
@@ -33,6 +33,18 @@ Overall total manufacturing lots does meet the current specification when assess
 
 ## Deliverable 3: T-Tests on Suspension Coils
 ### T-Tests on Suspension Coils
+Performed a t-test to determine if all manufacturing lots are statistically different from the population mean of 1,500 pounds per square inch. 
+![image](https://user-images.githubusercontent.com/106962921/191746230-f0b17350-5b04-4400-b7f7-66bbb2a3932f.png)
+
+Performed a t-tests to determine if each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+![image](https://user-images.githubusercontent.com/106962921/191747102-d96a52c1-2d57-4676-baaf-972823ca2c9a.png)
+t-test of Lot 1
+
+![image](https://user-images.githubusercontent.com/106962921/191747201-a682b6d4-667e-456d-9d8a-9efaebce48c8.png)
+t-test of Lot 2
+
+![image](https://user-images.githubusercontent.com/106962921/191747260-205bd4c9-4ca3-4ef9-b520-cc2d0f52d0e5.png)
+t-test of Lot 3
 
 ## Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 ### Study Design: MechaCar vs Competition
