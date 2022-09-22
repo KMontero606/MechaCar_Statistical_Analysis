@@ -21,10 +21,15 @@ This linear model does predict mpg of MechaCar prototypes by assessing the r2 = 
 
 ## Deliverable 2: Create Visualizations for the Trip Analysis
 ### Summary Statistics on Suspension Coils
+Summary statitics for the suspension coil’s PSI continuous variable across all manufacturing lots
+![image](https://user-images.githubusercontent.com/106962921/191745305-c9b0ee8f-b458-4eb0-beff-01d239162a07.png)
+
+Summary statistics for the following PSI metrics for each lot: mean, median, variance, and standard deviation.
+![image](https://user-images.githubusercontent.com/106962921/191745610-dcbb309a-2f23-4f01-92d9-2db168376400.png)
 
 **1. The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
 
-Overall manufacturing lots total does meet the current specification when assessing the results from the Total Summary report. The variance in question is 62 which is less than the specification of 100 lbs/in2. Upon closer inspection of each lot individually, ‘Lot 3’ is above the required specification yielding a result of 170.
+Overall total manufacturing lots does meet the current specification when assessing the results from the Total Summary report. The variance in question is 62 lbs/in<sup>2</sup> which is less than the specification of 100 lbs/in<sup>2</sup>. Upon closer inspection of each lot individually, ‘Lot 3’ is above the required specification yielding a result of 170 lbs/in<sup>2</sup>.
 
 ## Deliverable 3: T-Tests on Suspension Coils
 ### T-Tests on Suspension Coils
