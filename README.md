@@ -33,18 +33,23 @@ Overall total manufacturing lots does meet the current specification when assess
 
 ## Deliverable 3: T-Tests on Suspension Coils
 ### T-Tests on Suspension Coils
-Performed a t-test to determine if all manufacturing lots are statistically different from the population mean of 1,500 pounds per square inch. 
-![image](https://user-images.githubusercontent.com/106962921/191746230-f0b17350-5b04-4400-b7f7-66bbb2a3932f.png)
+**Performed a t-test to determine if all manufacturing lots are statistically different from the population mean of 1,500 pounds per square inch.** 
+![image](https://user-images.githubusercontent.com/106962921/191761692-73b827d0-2525-45bf-ab6e-579445b7a6bb.png)
+t-test of all lots: p-value = 0.06 which means there is insufficient evidence to reject the null hypothesis and the mean is statistically similar to the population mean.
 
-Performed a t-tests to determine if each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
-![image](https://user-images.githubusercontent.com/106962921/191747102-d96a52c1-2d57-4676-baaf-972823ca2c9a.png)
-t-test of Lot 1
 
-![image](https://user-images.githubusercontent.com/106962921/191747201-a682b6d4-667e-456d-9d8a-9efaebce48c8.png)
-t-test of Lot 2
+**Performed a t-tests to determine if each lot individually are statistically different from the population mean of 1,500 pounds per square inch.**
+![image](https://user-images.githubusercontent.com/106962921/191759811-a04bfd27-66b0-4c1d-845f-3552c772b748.png)
+t-test of Lot 1: p-value = 1 which means there is insufficient evidence to reject the null hypothesis and the mean is statistically similar to the population mean.
 
-![image](https://user-images.githubusercontent.com/106962921/191747260-205bd4c9-4ca3-4ef9-b520-cc2d0f52d0e5.png)
-t-test of Lot 3
+
+![image](https://user-images.githubusercontent.com/106962921/191759961-df64b687-1b00-480c-9cbc-001cc7eda7dc.png)
+t-test of Lot 2: p-value = 0.60 which means there is insufficient evidence to reject the null hypothesis and the mean is statistically similar to the population mean.
+
+
+![image](https://user-images.githubusercontent.com/106962921/191760098-de7b9e09-020b-4e45-9663-58eacce77864.png)
+t-test of Lot 3: p-value = 0.04 which means there is sufficient evidence to accept the null hypothesis and the mean is statistically similar to the population mean.
+
 
 ## Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 ### Study Design: MechaCar vs Competition
