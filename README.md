@@ -54,12 +54,19 @@ t-test of Lot 3: p-value = 0.04 which means there is sufficient evidence to acce
 ## Deliverable 4: Design a Study Comparing the MechaCar to the Competition
 ### Study Design: MechaCar vs Competition
 
-### Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+A statistical study will be conducted on how the MechaCar performs against the competition. In the study design, the metrics that will be explored that may be of interest to a consumer are cost, city or highway fuel efficiency, horse power, maintenance cost, and safety rating.
 
-In your description, address the following questions:
-1. What metric or metrics are you going to test?
+1. What metric(s) are you going to test?
+   - Manufacturer’s Suggested Retail Price (MSRP), Fuel Efficiency (city vs highway), Maintenance Cost, Engine Power Ratings, and Driver Safety Rating.
+  
 2. What is the null hypothesis or alternative hypothesis?
-3. What statistical test would you use to test the hypothesis? And why?
-4. What data is needed to run the statistical test?
+   - H<sup>0</sup>: There is no statistical difference between Fuel Efficiency and its presumed features.
+   - H<sup>a</sup>: There is statistical difference between Fuel Efficiency and its presumed features.
 
+3. What statistical test would you use to test the hypothesis? And why?
+   - Two Sample t-test: Is there a statistical difference in the distribution means between MechaCar vs Competition.
+   - Multiple Linear Regression: Is there a statistical difference in the variance of the dependent variable to the combination of independent variables between MechaCar   vs Competition.
+
+4. What data is needed to run the statistical test?
+   - Sample size of n = 100 over the course of 3 years will be needed to run the statistical test in order to incorporate variables included such as maintenance cost, price of vehicle (new vs used), engine power ratings as mileage increased over usage and if driver safety is maintained (i.e. recalls due to defective parts).
 
