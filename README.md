@@ -60,8 +60,8 @@ A statistical study will be conducted on how the MechaCar performs against the c
    - Manufacturer’s Suggested Retail Price (MSRP), Fuel Efficiency (city vs highway), Maintenance Cost, Engine Power Ratings, and Driver Safety Rating.
   
 2. What is the null hypothesis or alternative hypothesis?
-   - H<sup>0</sup>: There is no statistical difference between Fuel Efficiency and its presumed features.
-   - H<sup>a</sup>: There is statistical difference between Fuel Efficiency and its presumed features.
+   - H<sub>0</sub>: There is no statistical difference between Fuel Efficiency and its presumed features.
+   - H<sub>a</sub>: There is statistical difference between Fuel Efficiency and its presumed features.
 
 3. What statistical test would you use to test the hypothesis? And why?
    - Two Sample t-test: Is there a statistical difference in the distribution means between MechaCar vs Competition.
