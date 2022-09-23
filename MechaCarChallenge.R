@@ -11,7 +11,7 @@ total_summary <- SuspensionCoil_table %>% summarize(Mean=mean(PSI),Median=median
 lot_summary <- SuspensionCoil_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep') #create summary table with multiple rows
 
 # Deliverable 3: T-Test on Suspension Coils
-t.test(SuspensionCoil_table$PSI,mu=mean(SuspensionCoil_table$PSI)) #compare sample versus population means
-t.test(subset(SuspensionCoil_table$PSI,SuspensionCoil_table$Manufacturing_Lot == "Lot1"),mu=mean(SuspensionCoil_table$PSI)) #compare multiple sample versus population means
-t.test(subset(SuspensionCoil_table$PSI,SuspensionCoil_table$Manufacturing_Lot == "Lot2"),mu=mean(SuspensionCoil_table$PSI)) #compare multiple sample versus population means
-t.test(subset(SuspensionCoil_table$PSI,SuspensionCoil_table$Manufacturing_Lot == "Lot3"),mu=mean(SuspensionCoil_table$PSI)) #compare multiple sample versus population means
+t.test(SuspensionCoil_table$PSI,mu=1500) #compare sample versus population means
+t.test(subset(SuspensionCoil_table$PSI,SuspensionCoil_table$Manufacturing_Lot == "Lot1"),mu=1500) #compare multiple sample versus population means
+t.test(subset(SuspensionCoil_table$PSI,SuspensionCoil_table$Manufacturing_Lot == "Lot2"),mu=1500) #compare multiple sample versus population means
+t.test(subset(SuspensionCoil_table$PSI,SuspensionCoil_table$Manufacturing_Lot == "Lot3"),mu=1500) #compare multiple sample versus population means
